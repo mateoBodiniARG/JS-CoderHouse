@@ -57,7 +57,7 @@ console.log( "La banda favorita del usuario es: " + bandaFavorita);
 
 // alert - salida de datos
 let nomUsu = prompt("Hola!, ingrese su nombre porfavor: ")
-alert("Buenas noches "+ nomUsu + "!");
+alert("Buenas noches "+ nomUsu + "!"); 
 
 //-----------------------------------------------------------------------------------------------------------------------------//
 

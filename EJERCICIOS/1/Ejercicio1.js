@@ -20,6 +20,14 @@ EJEMPLO 2: Solicitar un precio de un producto e informar el precio final con IVA
 
 //EJERCICIO EJEMPLO 1 (parseInt)
 
+let edadUsuario = prompt("Ingrese ano nacimiento");
+
+let totalUsuario = 2022 - edadUsuario
+
+console.log("Su edad es " + totalUsuario);
+
+
+
 
 
 //EJERCICIO EJEMPLO 2 (parseFloat)
