@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="icon" type="image/x-icon" href="../Proyecto-final/Resources/list.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1> FINAL PROJECT "CoderHouse"  </h1>
+    <div class="list roundBorder">
+        <div class="date">
+            <div class="dateRight">
+                <div id="dateNumber"></div>
+                <div>
+                    <div id="dateMonth"></div>
+                    <div id="dateYear"></div>
+                </div>
+            </div>
+            <div id="dateText"></div>
+        </div>
+        <form onsubmit="addNewTask(event)" > <!-- Cuando se agregue la tarea vamos a llamar la funcion addNewTask y vamos a pasar el evento que contiene la informacion del form-->
+            <input type="text" name="taskText" autocomplete="off" placeholder="New task" class="roundBorder">
+            <button type="submit" class="addTaskButton">+</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Organize</button> <!-- Funcion para ordenar las tareas --> 
+            <button type="button" class="deleteButton roundBorder" onclick=" ">Delete</button> <!-- Funcion para ordenar las tareas --> 
+
+        </form>
+        <div id="tasksContainer"></div>
+    </div>
+
+
+
+    <script src="./proyectoFinal.js"></script>
+</body>
+</html>
