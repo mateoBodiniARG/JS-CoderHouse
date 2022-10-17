@@ -5,4 +5,4 @@
 
 # **IMAGEN DEL CODIGO**
 
-![](/Pre-Entrega%202/code.png)
+![](/Segunda-Pre-Entrega/code.png)
